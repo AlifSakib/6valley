@@ -12,7 +12,7 @@ const SearchBar = () => {
       <div>
         <div>
           <input
-            className="input input-bordered join-item w-80"
+            className="input input-bordered join-item w-60"
             placeholder="Search for items or Store"
           />
         </div>

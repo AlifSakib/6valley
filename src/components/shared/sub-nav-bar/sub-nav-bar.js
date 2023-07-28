@@ -21,7 +21,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function SubNavbar() {
+const SubNavbar = () => {
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
@@ -240,4 +240,6 @@ export default function SubNavbar() {
       )}
     </Disclosure>
   );
-}
+};
+
+export default SubNavbar;
